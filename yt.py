@@ -67,7 +67,7 @@ def view(xxx):
 def dis(filename, outfile, bysource=None, about=False):
 	if about:
 		
-		print "# Detail https://github.com/devixaayat\n"
+		
 	source_code = view(filename)
 	if bysource:
 		source_code = bysource
